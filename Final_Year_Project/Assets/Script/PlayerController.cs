@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer spriteRenderer;
     [SerializeField] int moveSpeed;
     [SerializeField] int jumpSpeed;
+    [SerializeField] float halfXLength;
+    [SerializeField] float halfYLength;
     
     void Start()
     {
@@ -31,7 +33,7 @@ public class PlayerController : MonoBehaviour
         {
             Move(0);
         }
-        if(Input.GetKey("space") & IsGrounded())
+        if(Input.GetKey("space") && IsGrounded())
         {            
             Jump(jumpSpeed);
         }
@@ -46,21 +48,29 @@ public class PlayerController : MonoBehaviour
     {
         rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
     }
-
     // Check if player touches ground
     bool IsGrounded()
     {
-        Vector2 position = transform.position;
-        Vector2 direction = Vector2.down;
+        bool isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - halfXLength, transform.position.y - halfYLength),
+            new Vector2(transform.position.x + halfXLength, transform.position.y - (halfYLength + 0.01f)), groundLayer);
+        /*Vector2 position = transform.position;
+        //Vector2 direction = Vector2.down;
         float distance = 1.0f;
-        Debug.DrawRay(position, direction, Color.green);
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
+        RaycastHit2D hit = Physics2D.OverlapCircle(position, distance, groundLayer);
         if(hit.collider != null)
         {
             Debug.Log("Grounded");
             return true;
         }
         Debug.Log("Not Grounded");
-        return false;
+        return false;*/
+        Debug.Log(isGrounded);
+        return isGrounded;
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = new Color (0, 1, 0, 0.5f);
+        Gizmos.DrawCube (new Vector2 (transform.position.x, transform.position.y - halfYLength),
+            new Vector2(halfXLength*2, 0.01f));
     }
 }
