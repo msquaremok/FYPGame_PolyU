@@ -366,8 +366,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.7}
-  m_EdgeRadius: 0.005
+  m_Size: {x: 0.69, y: 0.69}
+  m_EdgeRadius: 0.01
 --- !u!212 &557672814
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -447,10 +447,12 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  moveSpeed: 10
-  jumpSpeed: 10
-  halfXLength: 0.7
-  halfYLength: 0.7
+  moveSpeed: 8
+  jumpSpeed: 8
+  fallMultiplier: 1.857
+  minJumpTime: 0.15
+  maxJumpCount: 1
+  jumpCount: 0
 --- !u!1 &1314847435
 GameObject:
   m_ObjectHideFlags: 0
