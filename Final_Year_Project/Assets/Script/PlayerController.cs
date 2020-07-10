@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     public int maxJumpCount;
     [SerializeField] int jumpCount;
 
+    public Animator animator;
+
     float temp;
     
     void Start()
@@ -27,7 +29,8 @@ public class PlayerController : MonoBehaviour
         jumpTimeCounter = 0;
         jumpCount = maxJumpCount;
         halfXLength = GetComponent<BoxCollider2D>().size.x;
-        halfYLength = GetComponent<BoxCollider2D>().size.y + GetComponent<BoxCollider2D>().edgeRadius;
+        //halfYLength = GetComponent<BoxCollider2D>().size.y + GetComponent<BoxCollider2D>().edgeRadius;
+        halfYLength = GetComponent<BoxCollider2D>().size.y;
         Debug.Log(halfXLength);
         Debug.Log(halfYLength);
     }
@@ -36,14 +39,18 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKey("d") || Input.GetKey("right"))
         {
+            animator.SetBool("Run", true);
             Move(moveSpeed);
+
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
             Move(-moveSpeed);
+            
         }
         else
         {
+            animator.SetBool("Run", false);
             Move(0);
         }
 
@@ -66,6 +73,7 @@ public class PlayerController : MonoBehaviour
             //Instant fall when release jump
             if(rb2d.velocity.y > 0 && jumpTimeCounter >= minJumpTime)
             {
+                animator.SetBool("Jump", true);
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 0);                                
             }
         }
@@ -74,7 +82,8 @@ public class PlayerController : MonoBehaviour
         if(IsGrounded())
         {
             jumpTimeCounter = 0;
-            if(!Input.GetKey("space"))
+            animator.SetBool("Jump", false);
+            if (!Input.GetKey("space"))
             {
                 jumpCount = maxJumpCount;
             }
