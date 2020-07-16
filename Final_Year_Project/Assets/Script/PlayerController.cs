@@ -14,21 +14,16 @@ public class PlayerController : MonoBehaviour
     float colliderOffsetX;
     float colliderOffsetY;
     [SerializeField] float fallMultiplier; // for better fall down feeling
-    [SerializeField] float minJumpTime; //check hold time for bigger jumps
-    private float jumpTimeCounter;
     public int maxJumpCount;
     [SerializeField] int jumpCount;
-
-    public Animator animator;
-
-    float temp;
-
+    [SerializeField] float coyoteTime;
+    private float coyoteCounter;
+    [SerializeField] Animator animator;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb2d.freezeRotation = true;
-        jumpTimeCounter = 0;
         jumpCount = maxJumpCount;
         halfXLength = GetComponent<BoxCollider2D>().size.x / 2;
         halfYLength = (GetComponent<BoxCollider2D>().size.y + GetComponent<BoxCollider2D>().edgeRadius) / 2;
@@ -40,16 +35,29 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        Vector3 charScale = transform.localScale;
+        //for flipping char
+        halfXLength = charScale.x * GetComponent<BoxCollider2D>().size.x / 2;
+        colliderOffsetX = charScale.x * GetComponent<BoxCollider2D>().offset.x;
+
+        //Input Method
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
+            if (charScale.x < 0)
+            {
+                charScale.x = -charScale.x; //flip if not facing right
+            }
             animator.SetBool("Run", true);
             Move(moveSpeed);
-
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
+            if (charScale.x > 0)
+            {
+                charScale.x = -charScale.x; //flip if not facing left
+            }
+            animator.SetBool("Run", true);
             Move(-moveSpeed);
-
         }
         else
         {
@@ -57,39 +65,39 @@ public class PlayerController : MonoBehaviour
             Move(0);
         }
 
-        if (Input.GetKey("space"))
+        transform.localScale = charScale; //set face direction
+
+        if (Input.GetKeyDown("space"))
         {
-            if (IsGrounded() && jumpCount > 0)
+            if (coyoteCounter > 0f && jumpCount > 0)
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
                 jumpCount--;
             }
         }
-        //When it is jumping
-        if (!IsGrounded())
+
+        //small jump when space is released earlier
+        if (Input.GetKeyUp("space") && rb2d.velocity.y > 0)
         {
-            jumpTimeCounter += Time.deltaTime;
-        }
-        // for jump span control
-        if (!Input.GetKey("space"))
-        {
-            //Instant fall when release jump
-            if (rb2d.velocity.y > 0 && jumpTimeCounter >= minJumpTime)
-            {
-                animator.SetBool("Jump", true);
-                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
-            }
+            rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y * 0.5f);
         }
 
-        // Reset jump count prevent over bouncing and Time Counter  
+        // Reset jump count prevent over bouncing and Coyote Time Counter on ground  
         if (IsGrounded())
         {
-            jumpTimeCounter = 0;
+            coyoteCounter = coyoteTime;
             animator.SetBool("Jump", false);
             if (!Input.GetKey("space"))
             {
                 jumpCount = maxJumpCount;
             }
+        }
+        //When it is jumping
+        else
+        {
+            coyoteCounter -= Time.deltaTime;
+            animator.SetBool("Jump", true);
+            animator.SetBool("Run", false);
         }
     }
 
@@ -118,7 +126,7 @@ public class PlayerController : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = new Color(0, 1, 0, 0.5f);
-        Gizmos.DrawCube(new Vector2(transform.position.x + colliderOffsetX, transform.position.y - halfYLength + colliderOffsetY),
+        Gizmos.DrawCube(new Vector2((transform.position.x + colliderOffsetX), transform.position.y - halfYLength + colliderOffsetY),
             new Vector2(halfXLength * 2, 0.01f));
     }
 }
