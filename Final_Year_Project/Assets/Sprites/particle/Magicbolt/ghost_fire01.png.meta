@@ -1,0 +1,2294 @@
+fileFormatVersion: 2
+guid: 6777454765ef2c54098d960897c57a2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1257200438531697718
+    second: ghost_fire01_0
+  - first:
+      213: -5265410203990993365
+    second: ghost_fire01_1
+  - first:
+      213: 8199976455633758980
+    second: ghost_fire01_2
+  - first:
+      213: -8445402662469662998
+    second: ghost_fire01_3
+  - first:
+      213: -4517837475496101151
+    second: ghost_fire01_4
+  - first:
+      213: 2426649128476923498
+    second: ghost_fire01_5
+  - first:
+      213: -360320055811242527
+    second: ghost_fire01_6
+  - first:
+      213: -3257757814124801458
+    second: ghost_fire01_7
+  - first:
+      213: 5215055046619528396
+    second: ghost_fire01_8
+  - first:
+      213: -6593570435544776852
+    second: ghost_fire01_9
+  - first:
+      213: -3095875224446742473
+    second: ghost_fire01_10
+  - first:
+      213: -9220960561906369560
+    second: ghost_fire01_11
+  - first:
+      213: 761286499399517713
+    second: ghost_fire01_12
+  - first:
+      213: 4877306591586905598
+    second: ghost_fire01_13
+  - first:
+      213: -5370005012966085675
+    second: ghost_fire01_14
+  - first:
+      213: 7437595632841664540
+    second: ghost_fire01_15
+  - first:
+      213: 3566434139677009341
+    second: ghost_fire01_16
+  - first:
+      213: 1886653081486893294
+    second: ghost_fire01_17
+  - first:
+      213: 1892715134457670888
+    second: ghost_fire01_18
+  - first:
+      213: -1178394026411333739
+    second: ghost_fire01_19
+  - first:
+      213: 5860157530606250233
+    second: ghost_fire01_20
+  - first:
+      213: 4230762705005890114
+    second: ghost_fire01_21
+  - first:
+      213: -6819864080516289249
+    second: ghost_fire01_22
+  - first:
+      213: -2014461900244603582
+    second: ghost_fire01_23
+  - first:
+      213: -2157644073874087722
+    second: ghost_fire01_24
+  - first:
+      213: 5259171538960219667
+    second: ghost_fire01_25
+  - first:
+      213: -8723794715646224946
+    second: ghost_fire01_26
+  - first:
+      213: -6978780516644951295
+    second: ghost_fire01_27
+  - first:
+      213: 8883696570814300629
+    second: ghost_fire01_28
+  - first:
+      213: -1471128614782889092
+    second: ghost_fire01_29
+  - first:
+      213: 9072681694234819811
+    second: ghost_fire01_30
+  - first:
+      213: 1901629360011212028
+    second: ghost_fire01_31
+  - first:
+      213: 7795583203208886675
+    second: ghost_fire01_32
+  - first:
+      213: -9105750666029160146
+    second: ghost_fire01_33
+  - first:
+      213: -547991781988848103
+    second: ghost_fire01_34
+  - first:
+      213: 2193535294031348844
+    second: ghost_fire01_35
+  - first:
+      213: 6252079304280000633
+    second: ghost_fire01_36
+  - first:
+      213: 4215170649527533645
+    second: ghost_fire01_37
+  - first:
+      213: -4223474990548896816
+    second: ghost_fire01_38
+  - first:
+      213: -3040178355770399473
+    second: ghost_fire01_39
+  - first:
+      213: 8785154415192812677
+    second: ghost_fire01_40
+  - first:
+      213: -8624329897619182995
+    second: ghost_fire01_41
+  - first:
+      213: -3541777925859438508
+    second: ghost_fire01_42
+  - first:
+      213: -7526819936905697579
+    second: ghost_fire01_43
+  - first:
+      213: -7404774677556424744
+    second: ghost_fire01_44
+  - first:
+      213: -8453278794073961888
+    second: ghost_fire01_45
+  - first:
+      213: -495471204465036889
+    second: ghost_fire01_46
+  - first:
+      213: -6336338061119974224
+    second: ghost_fire01_47
+  - first:
+      213: 8705583706297002964
+    second: ghost_fire01_48
+  - first:
+      213: 3305972380059972609
+    second: ghost_fire01_49
+  - first:
+      213: -9082007737289572726
+    second: ghost_fire01_50
+  - first:
+      213: 6728689174753191466
+    second: ghost_fire01_51
+  - first:
+      213: -8383654759132385796
+    second: ghost_fire01_52
+  - first:
+      213: 7932069342449151747
+    second: ghost_fire01_53
+  - first:
+      213: 6210819549298607783
+    second: ghost_fire01_54
+  - first:
+      213: 5488889123762294989
+    second: ghost_fire01_55
+  - first:
+      213: -5209873955962965466
+    second: ghost_fire01_56
+  - first:
+      213: 5519878267927549654
+    second: ghost_fire01_57
+  - first:
+      213: 6218988912339726579
+    second: ghost_fire01_58
+  - first:
+      213: -7656347991518884161
+    second: ghost_fire01_59
+  - first:
+      213: -6808451742878681443
+    second: ghost_fire01_60
+  - first:
+      213: 4175908670378577102
+    second: ghost_fire01_61
+  - first:
+      213: 6513943145785668009
+    second: ghost_fire01_62
+  - first:
+      213: 612888883270836184
+    second: ghost_fire01_63
+  - first:
+      213: 6921111014854015685
+    second: ghost_fire01_64
+  - first:
+      213: -8846265593449868825
+    second: ghost_fire01_65
+  - first:
+      213: 5128953819481512296
+    second: ghost_fire01_66
+  - first:
+      213: 7423984070222245370
+    second: ghost_fire01_67
+  - first:
+      213: 3193207266549679670
+    second: ghost_fire01_68
+  - first:
+      213: 6645414148568400663
+    second: ghost_fire01_69
+  - first:
+      213: -5030390776196078660
+    second: ghost_fire01_70
+  - first:
+      213: -3624206376089308608
+    second: ghost_fire01_71
+  - first:
+      213: 649734865625631532
+    second: ghost_fire01_72
+  - first:
+      213: -7005384392680844184
+    second: ghost_fire01_73
+  - first:
+      213: -7515099237081894880
+    second: ghost_fire01_74
+  - first:
+      213: 8533101126857443808
+    second: ghost_fire01_75
+  - first:
+      213: -7146533586587025618
+    second: ghost_fire01_76
+  - first:
+      213: 1245476026193439334
+    second: ghost_fire01_77
+  - first:
+      213: 2898695778198955400
+    second: ghost_fire01_78
+  - first:
+      213: 7010461454129130193
+    second: ghost_fire01_79
+  - first:
+      213: -9101546878181238783
+    second: ghost_fire01_80
+  - first:
+      213: -8424367356502153389
+    second: ghost_fire01_81
+  - first:
+      213: 7160116984799999325
+    second: ghost_fire01_82
+  - first:
+      213: -836675954477183586
+    second: ghost_fire01_83
+  - first:
+      213: 6599392788643685775
+    second: ghost_fire01_84
+  - first:
+      213: 1775712126826873662
+    second: ghost_fire01_85
+  - first:
+      213: -6907313981469985719
+    second: ghost_fire01_86
+  - first:
+      213: 530822956482608357
+    second: ghost_fire01_87
+  - first:
+      213: -1823779552428083694
+    second: ghost_fire01_88
+  - first:
+      213: -6417824049106904333
+    second: ghost_fire01_89
+  - first:
+      213: -5189187636136163221
+    second: ghost_fire01_90
+  - first:
+      213: -1113597305773548502
+    second: ghost_fire01_91
+  - first:
+      213: 2836169285593451921
+    second: ghost_fire01_92
+  - first:
+      213: -7060106690931886969
+    second: ghost_fire01_93
+  - first:
+      213: -6505997177602479430
+    second: ghost_fire01_94
+  - first:
+      213: -5975765048557913631
+    second: ghost_fire01_95
+  - first:
+      213: 3080064210869808470
+    second: ghost_fire01_96
+  - first:
+      213: 1673592792839267569
+    second: ghost_fire01_97
+  - first:
+      213: 6208503671350817061
+    second: ghost_fire01_98
+  - first:
+      213: 3065747440693528003
+    second: ghost_fire01_99
+  - first:
+      213: -8158045894604476881
+    second: ghost_fire01_100
+  - first:
+      213: 2077024392122619394
+    second: ghost_fire01_101
+  - first:
+      213: -4709255252983340444
+    second: ghost_fire01_102
+  - first:
+      213: -605885952795793606
+    second: ghost_fire01_103
+  - first:
+      213: 2536209219874771028
+    second: ghost_fire01_104
+  - first:
+      213: 6440909438685642351
+    second: ghost_fire01_105
+  - first:
+      213: 8630231968182800472
+    second: ghost_fire01_106
+  - first:
+      213: -7922138362740506861
+    second: ghost_fire01_107
+  - first:
+      213: -8682933999889823333
+    second: ghost_fire01_108
+  - first:
+      213: 6921644049674137368
+    second: ghost_fire01_109
+  - first:
+      213: 1104154972553025379
+    second: ghost_fire01_110
+  - first:
+      213: 9157292103297449166
+    second: ghost_fire01_111
+  - first:
+      213: 7279304677199013205
+    second: ghost_fire01_112
+  - first:
+      213: -2825543619949806197
+    second: ghost_fire01_113
+  - first:
+      213: 2193869255407386479
+    second: ghost_fire01_114
+  - first:
+      213: 8695018109799393947
+    second: ghost_fire01_115
+  - first:
+      213: 8253124538487258791
+    second: ghost_fire01_116
+  - first:
+      213: -2259163500678559441
+    second: ghost_fire01_117
+  - first:
+      213: 4763943987792103901
+    second: ghost_fire01_118
+  - first:
+      213: 708079650634206064
+    second: ghost_fire01_119
+  - first:
+      213: -2315826127927227213
+    second: ghost_fire01_120
+  - first:
+      213: 7453885527826036585
+    second: ghost_fire01_121
+  - first:
+      213: 8574501160031902120
+    second: ghost_fire01_122
+  - first:
+      213: -2654331555759238452
+    second: ghost_fire01_123
+  - first:
+      213: 5557276466186875174
+    second: ghost_fire01_124
+  - first:
+      213: 8086885931811194177
+    second: ghost_fire01_125
+  - first:
+      213: -1198417662605494561
+    second: ghost_fire01_126
+  - first:
+      213: 1254833642252909507
+    second: ghost_fire01_127
+  - first:
+      213: -1389741801802839737
+    second: ghost_fire01_128
+  - first:
+      213: -6657576997937062539
+    second: ghost_fire01_129
+  - first:
+      213: 5701673518082399458
+    second: ghost_fire01_130
+  - first:
+      213: -8272581864707204296
+    second: ghost_fire01_131
+  - first:
+      213: -3321508528001010071
+    second: ghost_fire01_132
+  - first:
+      213: 3202617835903210607
+    second: ghost_fire01_133
+  - first:
+      213: -328650782063263874
+    second: ghost_fire01_134
+  - first:
+      213: -1880617903805521389
+    second: ghost_fire01_135
+  - first:
+      213: -9021546380102391231
+    second: ghost_fire01_136
+  - first:
+      213: -5920423280972742418
+    second: ghost_fire01_137
+  - first:
+      213: 7846368885870004985
+    second: ghost_fire01_138
+  - first:
+      213: 2260301866310083608
+    second: ghost_fire01_139
+  - first:
+      213: 2454711927322764156
+    second: ghost_fire01_140
+  - first:
+      213: -1842834831495181793
+    second: ghost_fire01_141
+  - first:
+      213: 8454941658462528137
+    second: ghost_fire01_142
+  - first:
+      213: 3684349114214991273
+    second: ghost_fire01_143
+  - first:
+      213: 8707576177932747609
+    second: ghost_fire01_144
+  - first:
+      213: 1215758419720348428
+    second: ghost_fire01_145
+  - first:
+      213: 2769048233762594511
+    second: ghost_fire01_146
+  - first:
+      213: -3103165376296078160
+    second: ghost_fire01_147
+  - first:
+      213: 7462849863099822641
+    second: ghost_fire01_148
+  - first:
+      213: 619910718376533880
+    second: ghost_fire01_149
+  - first:
+      213: 6105722176450092470
+    second: ghost_fire01_150
+  - first:
+      213: 2878455075554471663
+    second: ghost_fire01_151
+  - first:
+      213: -7764315598835618576
+    second: ghost_fire01_152
+  - first:
+      213: 6160365609915636114
+    second: ghost_fire01_153
+  - first:
+      213: 3064645713576069897
+    second: ghost_fire01_154
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_fire01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac35ad1bcd68d8ee0800000000000000
+      internalID: -1257200438531697718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26566a11518de6b0800000000000000
+      internalID: -5265410203990993365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bed9c142b2cc170800000000000000
+      internalID: 8199976455633758980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae68b5e2607ebca80800000000000000
+      internalID: -8445402662469662998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea7b18a0ca6d41c0800000000000000
+      internalID: -4517837475496101151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66d06186803da120800000000000000
+      internalID: 2426649128476923498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e50ceb71d2effaf0800000000000000
+      internalID: -360320055811242527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4296d4478e1ac2d0800000000000000
+      internalID: -3257757814124801458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_8
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 599
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc7dd13fe89f5840800000000000000
+      internalID: 5215055046619528396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ff5d38f9eee74a0800000000000000
+      internalID: -6593570435544776852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7305be1d2ed3905d0800000000000000
+      internalID: -3095875224446742473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb3fa34931980080800000000000000
+      internalID: -9220960561906369560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164209a902a09a00800000000000000
+      internalID: 761286499399517713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd6534018cafa340800000000000000
+      internalID: 4877306591586905598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_14
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbe61864e8e975b0800000000000000
+      internalID: -5370005012966085675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18268e62d5a73760800000000000000
+      internalID: 7437595632841664540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_16
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5264a44f48e7130800000000000000
+      internalID: 3566434139677009341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 532
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee02c605bfcbe2a10800000000000000
+      internalID: 1886653081486893294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecea520366444a10800000000000000
+      internalID: 1892715134457670888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5976f4a50e085afe0800000000000000
+      internalID: -1178394026411333739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8ad93c936735150800000000000000
+      internalID: 5860157530606250233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ac8d0c340b6ba30800000000000000
+      internalID: 4230762705005890114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_22
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d616080c9fa51a0800000000000000
+      internalID: -6819864080516289249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dac5623913b04e0800000000000000
+      internalID: -2014461900244603582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0220185228e02e0800000000000000
+      internalID: -2157644073874087722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e719086a45cf840800000000000000
+      internalID: 5259171538960219667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_26
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 465
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec51a704deadee680800000000000000
+      internalID: -8723794715646224946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10be5f36814662f90800000000000000
+      internalID: -6978780516644951295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d10ebb96fa394b70800000000000000
+      internalID: 8883696570814300629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7314f8b150859be0800000000000000
+      internalID: -1471128614782889092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec3e098ee3a8ed70800000000000000
+      internalID: 9072681694234819811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4fbe1e3d1f36a10800000000000000
+      internalID: 1901629360011212028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399744cde997f2c60800000000000000
+      internalID: 7795583203208886675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e292e0a7300e1a180800000000000000
+      internalID: -9105750666029160146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ea8bea0642568f0800000000000000
+      internalID: -547991781988848103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 398
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6445036ab0017e10800000000000000
+      internalID: 2193535294031348844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9784e279009d3c650800000000000000
+      internalID: 6252079304280000633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40cdb07f5b4f7a30800000000000000
+      internalID: 4215170649527533645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3369e7fd33365c0800000000000000
+      internalID: -4223474990548896816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_39
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05697a94ed1fc5d0800000000000000
+      internalID: -3040178355770399473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ca58615632be970800000000000000
+      internalID: 8785154415192812677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_41
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aa0aad6a9305880800000000000000
+      internalID: -8624329897619182995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45014d7ddb319dec0800000000000000
+      internalID: -3541777925859438508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6686c652d5b8790800000000000000
+      internalID: -7526819936905697579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_44
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 331
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df0176b9a4fc3990800000000000000
+      internalID: -7404774677556424744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a01e369bbefaa80800000000000000
+      internalID: -8453278794073961888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a13d6d809bbf19f0800000000000000
+      internalID: -495471204465036889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_47
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b41822da1ec018a0800000000000000
+      internalID: -6336338061119974224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe248b14270d870800000000000000
+      internalID: 8705583706297002964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_49
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1043ab62d5c21ed20800000000000000
+      internalID: 3305972380059972609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e718bd41a36f180800000000000000
+      internalID: -9082007737289572726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a262e21872b116d50800000000000000
+      internalID: 6728689174753191466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_52
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfda6624a6647ab80800000000000000
+      internalID: -8383654759132385796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_53
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 264
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fa2728a0f541e60800000000000000
+      internalID: 7932069342449151747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6cef74973413650800000000000000
+      internalID: 6210819549298607783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05b51a3937c2c40800000000000000
+      internalID: 5488889123762294989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_56
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622b44a7d3fc2b7b0800000000000000
+      internalID: -5209873955962965466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_57
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d658330a0c8a9c40800000000000000
+      internalID: 5519878267927549654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_58
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f03a1657794e4650800000000000000
+      internalID: 6218988912339726579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_59
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbecdb811103fb590800000000000000
+      internalID: -7656347991518884161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_60
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96b35b66358381a0800000000000000
+      internalID: -6808451742878681443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc83609fcec3f930800000000000000
+      internalID: 4175908670378577102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_62
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 197
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a135ab57cc266a50800000000000000
+      internalID: 6513943145785668009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfd42e213b618800800000000000000
+      internalID: 612888883270836184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_64
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caba636cc9bc0060800000000000000
+      internalID: 6921111014854015685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_65
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e119a1ff40cb3580800000000000000
+      internalID: -8846265593449868825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869149f0354bd2740800000000000000
+      internalID: 5128953819481512296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_67
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd61cb8d2a470760800000000000000
+      internalID: 7423984070222245370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_68
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636c3e0371d805c20800000000000000
+      internalID: 3193207266549679670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_69
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71346ce85f0493c50800000000000000
+      internalID: 6645414148568400663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_70
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb36e6fbd36703ab0800000000000000
+      internalID: -5030390776196078660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_71
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 130
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042bd78b08b34bdc0800000000000000
+      internalID: -3624206376089308608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b4dc7fa62540900800000000000000
+      internalID: 649734865625631532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_73
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864513fc200e7ce90800000000000000
+      internalID: -7005384392680844184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_74
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020bce18f0105b790800000000000000
+      internalID: -7515099237081894880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_75
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c2dab34aab6670800000000000000
+      internalID: 8533101126857443808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_76
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff414219962dc90800000000000000
+      internalID: -7146533586587025618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_77
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a6685d8d1d84110800000000000000
+      internalID: 1245476026193439334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_78
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885297bc37c3a3820800000000000000
+      internalID: 2898695778198955400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_79
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6fecac892a4160800000000000000
+      internalID: 7010461454129130193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_fire01_80
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 63
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108117b165fc0b180800000000000000
+      internalID: -9101546878181238783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

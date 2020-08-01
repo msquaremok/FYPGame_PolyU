@@ -19,6 +19,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float coyoteTime;
     private float coyoteCounter;
     [SerializeField] Animator animator;
+
+    //shooting
+    public GameObject projectile;
+    public Vector2 velocity;
+    public bool canShoot = true;
+    public Vector2 offset = new Vector2(0.4f, 0.1f);
+    public float coolDown = 1f;
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -40,7 +48,21 @@ public class PlayerController : MonoBehaviour
         halfXLength = charScale.x * GetComponent<BoxCollider2D>().size.x / 2;
         colliderOffsetX = charScale.x * GetComponent<BoxCollider2D>().offset.x;
 
-        //Input Method
+        //Input shooting
+        if (Input.GetKeyDown(KeyCode.F) && canShoot)
+        {
+            GameObject go = (GameObject) Instantiate(projectile, (Vector2)transform.position + offset * transform.localScale.x, Quaternion.identity);
+            go.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * transform.localScale.x , velocity.y);
+        }
+
+        IEnumerator CanShoot(){
+            canShoot = false;
+            yield return new WaitForSeconds(coolDown);
+            canShoot = true;
+        }
+
+        //Input Method Movement
+
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
             if (charScale.x < 0)

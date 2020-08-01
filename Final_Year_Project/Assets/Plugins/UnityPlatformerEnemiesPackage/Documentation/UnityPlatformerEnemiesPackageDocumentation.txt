@@ -1,0 +1,115 @@
+
+Unity platformer enemies package
+
+
+**Contact information:
+
+Thomas Alexgaard Jensen
+
+alexgaardgames@gmail.com
+
+https://connect.unity.com/g/5c3de58fedbc2a020455dff7?tab=discussion
+
+
+**Introduction and contact notes:
+
+Hi! Thank you for buying this product and thank you for supporting me!
+
+Should any complications arise, should you be in need of help concerning how this package
+works, should you be in need of help concerning how you could expand upon the contents of this package,
+then you can always contact me using my email or through my unity connect group.
+
+I hope this package is useful in creating your own games, and when you finish, please also contact me
+and i would be very happy to play your awesome creation!
+
+
+**Descripton of package:
+
+Inside of this package you will find a folder containing assets, a demo and a documentation,
+inside the assets folder you will find:
+
+A prefabs folder containing prefabs of every asset used to create the demo, 
+including 4 enemies, 2 groundtiles and a health drop.
+
+A scripts folder containing 4 enemy movement scripts, and 2 health scripts 
+(information on scripts can be read further down).
+
+A textures folder containing alle the temporary textures used in the demo.
+
+
+**Description of Prefabs:
+
+EnemyType_1:
+A patrolling ground enemy, moving between 2 points in a horizontal pattern.
+
+EnemyType_2:
+A flying enemy moving between 4 points in diagonal patterns.
+
+EnemyType_3:
+A flying enemy moving in a horizontal sinusodial pattern between 2 points.
+
+EnemyType_4:
+A stationary enemy on the ceiling, waiting for the player before attacking,
+when on the ground the enemy will jump to stop the player.
+
+HealthPickup:
+A red heart functioning as loot, to be dropped from dead enemies. will jump to attract attention.
+
+
+**How to modify prefabs:
+(read the scripts for further information)
+
+EnemyType_1:
+Can be modified using the inspector to change movement speed and the 2 points
+can be moved around in the scene to change patrol length.
+
+EnemyType_2:
+Can be modified using the inspector to change Horizontal/vertical movement speed and the 4 points
+can be moved around in the scene to change patrol area.
+
+EnemyType_3:
+Can be modified using the inspector to change movement speed and the amplitude of the sinusodial
+movement and the 2 points can be moved around in the scene to change patrol length.
+
+EnemyType_4:
+Can be modified using the inspector to change gravity of the fall, the time between jumps and jump force
+on the ground. 
+
+
+All enemies:
+Can be modified in the amounts of heath they have and if they are to drop loot. furthermore a kill switch can be found
+in the inspector of each enemy to test the death and spawning of loot.
+(in the demo loot is a health pickup)
+
+
+HealthPickup:
+Can be modified using the inspector to change the duration between jumps and the jump force.
+
+
+**Further modification:
+
+When creating a game around these enemies a number of things has tp have the same naming conventions
+if you dont decide to rename them. 
+
+To kill the enemies without using the killswitch in the inspector, you have to make the enemies 
+collide with objects (such as projectiles) whoose tags are either "Bullet_1" or "Bullet_2". 
+(spawning these objects wont be a part of this package)
+
+for the 4th enemy to respond to a player walking beneath, the player needs to be on a layer called "Player".
+
+Any of these names could be modified in the code itself to your personal prefrence.
+
+Thank you for reading through the documentation!
+
+
+
+
+
+
+
+
+
+
+
+
+
