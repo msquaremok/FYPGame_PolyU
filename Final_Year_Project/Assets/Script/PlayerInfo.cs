@@ -96,4 +96,25 @@ public class PlayerInfo : MonoBehaviour
             }
         }
     }
+    /*
+    private void OnCollisionEnter2D(Collider2D collision)
+    {
+        Debug.Log("Touched!!");
+        if(collision.gameObject.name == "Enemy_2")
+        {
+            healthPoint -= 1;
+            Debug.Log("Current healthpoint: " + healthPoint);
+        }
+    }
+    */
+    /*
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            healthPoint -= 1;
+            Debug.Log("Hitted");
+        }
+    }
+    */
 }
