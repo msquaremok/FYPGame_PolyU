@@ -11,83 +11,125 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpSpeed;
     float halfXLength; //for ground overlap check x
     float halfYLength; //for ground overlap check y
+    float colliderOffsetX;
+    float colliderOffsetY;
     [SerializeField] float fallMultiplier; // for better fall down feeling
-    [SerializeField] float minJumpTime; //check hold time for bigger jumps
-    private float jumpTimeCounter;
     public int maxJumpCount;
     [SerializeField] int jumpCount;
+    [SerializeField] float coyoteTime;
+    private float coyoteCounter;
+    [SerializeField] Animator animator;
 
-    float temp;
-    
+    //shooting
+    public GameObject projectile;
+    public Vector2 velocity;
+    public bool canShoot = true;
+    public Vector2 offset = new Vector2(0.4f, 0.1f);
+    public float coolDown = 1f;
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb2d.freezeRotation = true;
-        jumpTimeCounter = 0;
         jumpCount = maxJumpCount;
-        halfXLength = GetComponent<BoxCollider2D>().size.x;
-        halfYLength = GetComponent<BoxCollider2D>().size.y + GetComponent<BoxCollider2D>().edgeRadius;
+        halfXLength = GetComponent<BoxCollider2D>().size.x / 2;
+        halfYLength = (GetComponent<BoxCollider2D>().size.y + GetComponent<BoxCollider2D>().edgeRadius) / 2;
+        colliderOffsetX = GetComponent<BoxCollider2D>().offset.x;
+        colliderOffsetY = GetComponent<BoxCollider2D>().offset.y;
         Debug.Log(halfXLength);
         Debug.Log(halfYLength);
     }
 
     void Update()
     {
-        if(Input.GetKey("d") || Input.GetKey("right"))
+        Vector3 charScale = transform.localScale;
+        //for flipping char
+        halfXLength = charScale.x * GetComponent<BoxCollider2D>().size.x / 2;
+        colliderOffsetX = charScale.x * GetComponent<BoxCollider2D>().offset.x;
+
+        //Input shooting
+        if (Input.GetKeyDown(KeyCode.F) && canShoot)
         {
+            GameObject go = (GameObject) Instantiate(projectile, (Vector2)transform.position + offset * transform.localScale.x, Quaternion.identity);
+            go.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * transform.localScale.x , velocity.y);
+        }
+
+        IEnumerator CanShoot(){
+            canShoot = false;
+            yield return new WaitForSeconds(coolDown);
+            canShoot = true;
+        }
+
+        //Input Method Movement
+
+        if (Input.GetKey("d") || Input.GetKey("right"))
+        {
+            if (charScale.x < 0)
+            {
+                charScale.x = -charScale.x; //flip if not facing right
+            }
+            animator.SetBool("Run", true);
             Move(moveSpeed);
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
+            if (charScale.x > 0)
+            {
+                charScale.x = -charScale.x; //flip if not facing left
+            }
+            animator.SetBool("Run", true);
             Move(-moveSpeed);
         }
         else
         {
+            animator.SetBool("Run", false);
             Move(0);
         }
 
-        if(Input.GetKey("space"))
+        transform.localScale = charScale; //set face direction
+
+        if (Input.GetKeyDown("space"))
         {
-            if(IsGrounded() && jumpCount > 0)
+            if (coyoteCounter > 0f && jumpCount > 0)
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
                 jumpCount--;
             }
         }
-        //When it is jumping
-        if(!IsGrounded())
+
+        //small jump when space is released earlier
+        if (Input.GetKeyUp("space") && rb2d.velocity.y > 0)
         {
-            jumpTimeCounter += Time.deltaTime;
-        }
-        // for jump span control
-        if(!Input.GetKey("space"))
-        {   
-            //Instant fall when release jump
-            if(rb2d.velocity.y > 0 && jumpTimeCounter >= minJumpTime)
-            {
-                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);                                
-            }
+            rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y * 0.5f);
         }
 
-        // Reset jump count prevent over bouncing and Time Counter  
-        if(IsGrounded())
+        // Reset jump count prevent over bouncing and Coyote Time Counter on ground  
+        if (IsGrounded())
         {
-            jumpTimeCounter = 0;
-            if(!Input.GetKey("space"))
+            coyoteCounter = coyoteTime;
+            animator.SetBool("Jump", false);
+            if (!Input.GetKey("space"))
             {
                 jumpCount = maxJumpCount;
             }
-        }              
+        }
+        //When it is jumping
+        else
+        {
+            coyoteCounter -= Time.deltaTime;
+            animator.SetBool("Jump", true);
+            animator.SetBool("Run", false);
+        }
     }
 
-    void FixedUpdate() 
+    void FixedUpdate()
     {
         //better fall feeling manipulator
-        if(rb2d.velocity.y <= 0)
+        if (rb2d.velocity.y <= 0)
         {
             rb2d.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }    
+        }
     }
 
     void Move(float moveSpeed)
@@ -98,15 +140,15 @@ public class PlayerController : MonoBehaviour
     // Check if player touches ground
     bool IsGrounded()
     {
-        bool isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - halfXLength, transform.position.y - halfYLength),
-            new Vector2(transform.position.x + halfXLength, transform.position.y - (halfYLength + 0.01f)), groundLayer);
+        bool isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - halfXLength + colliderOffsetX, transform.position.y - halfYLength + colliderOffsetY),
+            new Vector2(transform.position.x + halfXLength + colliderOffsetX, transform.position.y - (halfYLength + 0.01f) + colliderOffsetY), groundLayer);
         return isGrounded;
     }
     //Debugging for Gorund touching check
     private void OnDrawGizmos()
     {
-        Gizmos.color = new Color (0, 1, 0, 0.5f);
-        Gizmos.DrawCube (new Vector2 (transform.position.x, transform.position.y - halfYLength),
-            new Vector2(halfXLength*2, 0.01f));
+        Gizmos.color = new Color(0, 1, 0, 0.5f);
+        Gizmos.DrawCube(new Vector2((transform.position.x + colliderOffsetX), transform.position.y - halfYLength + colliderOffsetY),
+            new Vector2(halfXLength * 2, 0.01f));
     }
 }
